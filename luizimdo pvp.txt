@@ -1,0 +1,12 @@
+create database enpresa;
+use enpresa;
+CREATE TABLE departamento (
+    iddepartamento INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    gerente VARCHAR(100),
+    telefone VARCHAR(20)NOT NULL
+);
+
+insert into departamento value( null,' financeiro', 1,'2222-3333);
+insert into departamento value( null,' compras', 2,'2222-4444);
+insert into departamento value( null,' rh', 3,'2222-5555);
